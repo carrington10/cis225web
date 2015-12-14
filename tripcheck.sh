@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "please enter a file name" 
 read  filename 
-if [ $filename = "tripwire" ];
+if [ $filename = "tripwire.txt" ];
 then
 echo "error file exist "
 exit
